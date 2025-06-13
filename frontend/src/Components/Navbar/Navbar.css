@@ -1,0 +1,103 @@
+.navbar{
+  padding : 20px 0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar .logo{
+  display: flex;
+  width: 150px;
+
+}
+.navbar-menu{
+  display: flex;
+  gap:20px;
+  color:#49557e;
+  list-style:none;
+  font-size:18px;
+}
+
+.navbar-right{
+  display: flex;
+  align-items:center;
+  gap:40px;
+
+}
+
+.btn1{
+ background-color: hsl(200, 15%, 92%);
+  font-size: 16px;
+  border: 1px solid tomato;
+  padding:10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+.btn1:hover{
+  background-color: black;
+  color:white;
+  transition: 0.2s;
+}
+.navbar-button:hover{
+  background-color:white;
+}
+
+.navbar .active{
+  padding-bottom: 1px;
+  border-bottom: 2px solid black;
+}
+
+.navbar li{
+  cursor:pointer;
+}
+.navbar-serach-icon .dot{
+  position:absolute;
+  min-width:10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius:5px;
+  top:-8px;
+  right:-8px;
+
+}
+
+@media (max-width:900px){
+  .navbar .logo{
+    width:120px;
+  }
+  .navbar-menu{
+    gap:15px;
+    font-size:16px;
+  }
+  .navbar-right{
+    gap:20px;
+  }
+  .navbar-right img{
+    width:20px;
+  }
+  .navbar-right button{
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:750px){
+  .navbar .logo{
+    width:120px;
+  }
+  .navbar-menu{
+    gap:15px;
+    font-size:16px;
+  }
+  .navbar-right{
+    gap:20px;
+  }
+  .navbar-right img{
+    width:20px;
+  }
+  .navbar-right button{
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
